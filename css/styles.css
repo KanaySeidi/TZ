@@ -8,7 +8,12 @@
     position: absolute;
     left: 2rem;
 }
-
+.search-input{
+    background-color: #dcdcdc !important; 
+}
+.search-input:focus{
+    background-color: transparent !important; 
+}
 input[type="search"]::placeholder {
     padding-left: 2.5em;
  }
