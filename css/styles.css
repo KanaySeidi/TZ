@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-.container-fluid {
-    display: flex;
-    justify-content: space-evenly;
+.search-btn{
+    position: absolute;
+    left: 2rem;
 }
+
+input[type="search"]::placeholder {
+    padding-left: 2.5em;
+ }
